@@ -2,13 +2,17 @@ export const profile = {
   name: "Daniel Aguirre Velez",
   role: "Software Engineer | Full Stack & Blockchain Architect",
   summary:
-    "Software Engineer oriented to the development of web applications and full stack solutions. Specialist in Web 3.0 and Blockchain architectures, focused on writing clean, modular, and maintainable code with high performance and security standards.",
+    "Software Engineer oriented to the development of web applications and full stack solutions. focused on writing clean, modular, and maintainable code with high performance and security standards.",
   location: "Cali, Colombia",
   availability: "Open for Remote",
-  email: "mailto:contact@danielaguirre.dev",
+  email: "mailto:Danielaguirre3730@gmail.com",
+  emailDisplay: "Danielaguirre3730@gmail.com",
+  phone: "+57 317 425 8469",
+  phoneHref: "tel:+573174258469",
   socials: {
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/",
+    github: "https://github.com/DanielAgVz",
+    linkedin:
+      "https://www.linkedin.com/in/daniel-aguirre-velez-854588354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://twitter.com/",
   },
 };

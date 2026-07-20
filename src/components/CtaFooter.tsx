@@ -1,18 +1,16 @@
-import { ExternalLink, Link2, Mail } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { profile } from "../data/resume";
+import GithubIcon from "./icons/GithubIcon";
+import LinkedinIcon from "./icons/LinkedinIcon";
 
 export default function CtaFooter() {
   return (
     <footer className="border-t border-border px-6 pt-24">
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-3xl font-bold text-text-bright sm:text-4xl">
-          Ready to build the future of Web 3.0?
+          Contact Me
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-text sm:text-base">
-          Whether you need a full-stack architect or a blockchain specialist,
-          I'm ready to bring your vision to life.
-        </p>
-
+        
         <div className="mt-8 flex items-center justify-center gap-3">
           <a
             href={profile.email}
@@ -28,7 +26,7 @@ export default function CtaFooter() {
             aria-label="GitHub"
             className="flex h-11 w-11 items-center justify-center rounded-lg border border-border text-text-dim transition-colors hover:border-cyan/50 hover:text-cyan"
           >
-            <Link2 size={16} />
+            <GithubIcon size={16} />
           </a>
           <a
             href={profile.socials.linkedin}
@@ -37,12 +35,29 @@ export default function CtaFooter() {
             aria-label="LinkedIn"
             className="flex h-11 w-11 items-center justify-center rounded-lg border border-border text-text-dim transition-colors hover:border-cyan/50 hover:text-cyan"
           >
-            <ExternalLink size={16} />
+            <LinkedinIcon size={16} />
+          </a>
+        </div>
+
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-mono text-xs text-text-dim">
+          <a
+            href={profile.email}
+            className="inline-flex items-center gap-2 transition-colors hover:text-cyan"
+          >
+            <Mail size={13} className="text-cyan" />
+            {profile.emailDisplay}
+          </a>
+          <a
+            href={profile.phoneHref}
+            className="inline-flex items-center gap-2 transition-colors hover:text-cyan"
+          >
+            <Phone size={13} className="text-cyan" />
+            {profile.phone}
           </a>
         </div>
       </div>
 
-      <div className="mx-auto mt-20 flex max-w-6xl flex-col items-center gap-4 border-t border-border py-8 text-xs text-text-dim sm:flex-row sm:justify-between">
+      <div className="mx-auto mt-16 flex max-w-6xl flex-col items-center gap-4 border-t border-border py-8 text-xs text-text-dim sm:flex-row sm:justify-between">
         <span className="font-mono font-semibold tracking-wide text-text-bright">
           DANIEL AGUIRRE VELEZ
         </span>

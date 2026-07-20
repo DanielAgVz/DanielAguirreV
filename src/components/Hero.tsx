@@ -1,4 +1,4 @@
-import { Briefcase, MapPin, User } from "lucide-react";
+import { Briefcase, MapPin } from "lucide-react";
 import { profile } from "../data/resume";
 
 export default function Hero() {
@@ -12,11 +12,7 @@ export default function Hero() {
         className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-cyan/10 blur-[120px]"
       />
 
-      <div className="mx-auto flex w-24 h-24 items-center justify-center rounded-2xl border-2 border-cyan/70 text-cyan">
-        <User size={36} strokeWidth={1.5} />
-      </div>
-
-      <h1 className="mt-8 text-4xl font-bold tracking-tight text-text-bright sm:text-5xl md:text-6xl">
+      <h1 className="text-4xl font-bold tracking-tight text-text-bright sm:text-5xl md:text-6xl">
         {profile.name.toUpperCase()}
       </h1>
 

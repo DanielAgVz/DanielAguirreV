@@ -9,6 +9,8 @@ export const profile = {
   emailDisplay: "Danielaguirre3730@gmail.com",
   phone: "+57 317 425 8469",
   phoneHref: "tel:+573174258469",
+  whatsapp:
+    "https://wa.me/573174258469?text=Hola%20Daniel%2C%20vi%20tu%20portafolio%20y%20quiero%20contactarte",
   socials: {
     github: "https://github.com/DanielAgVz",
     linkedin:

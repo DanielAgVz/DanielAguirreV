@@ -4,6 +4,7 @@ import Experience from "./components/Experience";
 import TechnicalArsenal from "./components/TechnicalArsenal";
 import EducationCertifications from "./components/EducationCertifications";
 import CtaFooter from "./components/CtaFooter";
+import ChatWidget from "./components/ChatWidget";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <EducationCertifications />
       </main>
       <CtaFooter />
+      <ChatWidget />
     </div>
   );
 }
